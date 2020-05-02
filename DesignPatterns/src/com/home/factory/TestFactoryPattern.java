@@ -1,6 +1,6 @@
-package com.home;
+package com.home.factory;
 
-public class TestPattern1 {
+public class TestFactoryPattern {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

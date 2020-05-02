@@ -1,4 +1,4 @@
-package com.home;
+package com.home.builder;
 
 public class TestBuilderPattern {
 
@@ -9,6 +9,11 @@ public class TestBuilderPattern {
 		
 		Car car2 = new CarBuilder().setName("Maruti").setAntiBreakingSystem(true).getCar();
 		System.out.println(car2);
+		
+		
+		Computer comp = new Computer.ComputerBuilder("2GB","Core2Duo","1TB").setGraphicsCard(true).Build();
+		System.out.println(comp);
+		
 		
 		
 	}

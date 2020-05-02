@@ -1,4 +1,4 @@
-package com.home;
+package com.home.factory;
 
 public interface OperatingSoftware {
 	

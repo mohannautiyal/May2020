@@ -1,4 +1,4 @@
-package com.home;
+package com.home.singleton;
 
 public class SingleTon {
 

@@ -1,6 +1,6 @@
-package com.home;
+package com.home.singleton;
 
-public class TestPatternClass {
+public class TestSingletonPattern {
 
 	
 	public static void main(String[] args) {
