@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.home.TestCalculate
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.788 s <<< FAILURE! - in com.home.TestCalculate
+com.home.TestCalculate.TestAdd  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: Sum of numbers is incorrect
+	at com.home.TestCalculate.TestAdd(TestCalculate.java:16)
+
