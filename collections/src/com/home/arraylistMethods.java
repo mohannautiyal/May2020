@@ -26,7 +26,7 @@ public class arraylistMethods {
 		al1.remove(2); // removes element at index 2
 		System.out.println(al1);
 		
-		// add one collection to another 
+		// add one collection to another using addall
 	   ArrayList<Integer> al2 = new ArrayList<Integer>();
 	   al2.add(10);	   
 	   al1.addAll(al2);

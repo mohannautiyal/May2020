@@ -19,6 +19,11 @@ public class employee {
 	public int getEmpno() {
 		return empno;
 	}
+
+	@Override
+	public String toString() {
+		return "employee [name=" + name + ", empno=" + empno + "]";
+	}
 	
 	
 	
