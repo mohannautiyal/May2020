@@ -28,7 +28,7 @@ public class arraylistMethods {
 		
 		// add one collection to another using addall
 	   ArrayList<Integer> al2 = new ArrayList<Integer>();
-	   al2.add(10);	   
+	   al2.add(10);	  
 	   al1.addAll(al2);
 	   System.out.println(al1);
 	 
