@@ -10,9 +10,19 @@ public class runner {
 		ll.insertData(30);
 		
 		ll.insertAtStart(5);
-		ll.insertAt(3, 4);
-	ll.show();
-		
+
+		ll.show();
+		System.out.println("\n");
+		ll.insertAt(1, 4);
+		ll.show();
+		ll.insertAt(2, 0);
+		System.out.println("\n");
+		ll.show();
+		System.out.println("\n");
+
+        ll.delete(6);
+		ll.show();
+
 	}
 	
 	

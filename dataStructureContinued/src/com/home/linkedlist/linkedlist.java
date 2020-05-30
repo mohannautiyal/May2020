@@ -49,6 +49,10 @@ public class linkedlist {
 	// insert data at some particular position
 	public void insertAt(int pos, int val) {
 
+		if(pos ==1)
+			insertAtStart(val);
+		else
+		{
 		node newNode = new node();
 		newNode.value = val;
 		
@@ -60,7 +64,36 @@ public class linkedlist {
 		node temp = node.nextNode;
 		node.nextNode = newNode;
 		newNode.nextNode = temp;
-
+		}
 	}
 
+	
+// delete from particular position	
+	public void delete(int pos) {
+		
+		node n = head;
+		node p =null;
+		int currPos=0;
+		while(currPos < pos-1 ) {
+			p =n;
+			n =n.nextNode;
+			currPos++;
+			}
+		
+		 if(n.nextNode != null  ) {
+		System.out.println("Removed element "+n.value); 
+
+		   n.value = n.nextNode.value;
+		   n.nextNode =n.nextNode.nextNode;
+
+		 }else{
+			System.out.println("Removed element "+n.value); 
+			p.nextNode = null;
+		 }
+		 
+		 
+		
+	}
+	
+	
 }
