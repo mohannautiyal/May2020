@@ -26,8 +26,9 @@ public class LambdaExpression {
 		};
 		
 		f.show("Test");
-		functionalLambdaInterface f1 = (name) -> {System.out.println(name);};				
-		f1.show("Test Lamda Expression");;	
+		functionalLambdaInterface f1 = (name) -> {System.out.println(name);};
+		
+		f1.show("Test Lamda Expression");
 
 			
 		

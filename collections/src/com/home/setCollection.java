@@ -3,6 +3,7 @@ package com.home;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
 public class setCollection {
 
@@ -36,6 +37,24 @@ public class setCollection {
 		for(String stuName:student) {
 			System.out.print(stuName +" ");
 		}
+		
+	// Tree Set for sorted data. It allows only homogeneous data
+		Set<String> student1 = new TreeSet<String>();
+		student1.add("Madan");
+		student1.add("Raj");
+		student1.add("Rohan");
+		student1.add("Amit");
+		student1.add("Akshay");
+		student1.add("Sumit");
+		student1.add("Kavish");
+		student1.add("Tarun");
+    	System.out.println("\n");
+		
+	student1.stream().forEach(x ->System.out.print(x+" "));
+		
+		
+		
+		
 	}
 
 }
